@@ -29,7 +29,8 @@ h1 {
 }
 
 ul,
-.top-text {
+.top-text,
+footer {
     font-size: 18px;
     color: #E5E7EB;
 }
