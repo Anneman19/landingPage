@@ -3,9 +3,11 @@ html {
 }
 
 body {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0;
 }
 
 header,
@@ -16,20 +18,40 @@ footer,
 
 button {
     background-color: #3882F6;
+    width: 100px;
+    height: 32px;
+    border-radius: 4px;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+.button1 {
+    border: 2px;
+}
+
+.button2 {
+    border: 2px solid white;
 }
 
 .mid-sec2 {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
 }
 
 h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 0;
 }
 
 ul,
 .top-text,
+.box-text,
 footer {
     font-size: 18px;
     color: #E5E7EB;
@@ -38,6 +60,7 @@ footer {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 900;
 }
 
 h2 {
@@ -51,4 +74,112 @@ h2 {
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
+}
+
+.card-image {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 12px;
+}
+
+.top-image {
+    width: 800px;
+    height: 400px;
+    align-self: center;
+    border: 2px solid #3882F6;
+    border-radius: 12px;
+}
+
+.top-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 108px;
+}
+
+ul {
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    gap: 56rem;
+    padding: 12px;
+}
+
+.mid-sec1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.author {
+    font-weight: bold;
+}
+
+.text {
+    text-align: center;
+    margin-top: 4px;
+}
+
+.image-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 150px;
+}
+
+.info-sec {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: #3882F6;
+    display: flex;
+    gap: 8rem;
+    justify-content: space-around;
+    align-items: center;
+    margin: 32px 64px 32px 64px;
+    width: 50%;
+    border: 2px;
+    border-radius: 8px;
+    padding: 18px;
+}
+
+.bot-sec {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 24px;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 24px;
 }
